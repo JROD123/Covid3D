@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-image: linear-gradient(rgba(247, 247, 247), hsl(0, 0%, 0%));
+}
+
+.container {
+  text-align: center;
+}
+
+.Text {
+  font-size: 350%;
+  font-weight: 900;
+  letter-spacing: -3px;
+  line-height: 45px;
+  color: black;
+  z-index: 100;
+  position: fixed;
+  top: 13%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Yantramanav", sans-serif;
+  letter-spacing: 3px;
+}
+
+#Button {
+  color: rgb(67, 168, 199);
+  text-align: center;
+  position: fixed;
+  top: 83%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 0px;
+  font-size: 150%;
+}
